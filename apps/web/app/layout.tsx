@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import {SocketProvider} from "../context/SocketProvider";//To wrap the whole app in this socket provider
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +17,9 @@ export default function RootLayout({
 }): JSX.Element {
   return (
     <html lang="en">
+      <SocketProvider> {/*Wrapping the whole app in this socket provider so that now we have full access to socketprovider*/}
       <body className={inter.className}>{children}</body>
-    </html>
+      </SocketProvider>
+    </html> 
   );
 }
