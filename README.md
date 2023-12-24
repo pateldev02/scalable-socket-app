@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Turborepo starter
 
 This is an official starter Turborepo.
@@ -79,3 +80,7 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+=======
+# scalable-socket-app
+To build a scalable socket application with Redis pub/sub architecture and TurboRepo, you would integrate a real-time communication framework (like Node.js and Socket.io) with Redis for message handling. TurboRepo is used to manage and spin up multiple servers simultaneously, ensuring efficient scaling and deployment.
+>>>>>>> 70980d71936e4efb7923645e3e90b0668045931b
