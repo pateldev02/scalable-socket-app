@@ -6,14 +6,14 @@ const pub = new Redis({
     host:'redis-28bb944d-socket-chat.a.aivencloud.com',
     port:25966,
     username:'default',
-    password:'AVNS_7B7sGgfnstz0fiRd8dl'
+    password:'your_password'
 
 });
 const sub = new Redis({
     host:'redis-28bb944d-socket-chat.a.aivencloud.com',
     port:25966,
     username:'default',
-    password:'AVNS_7B7sGgfnstz0fiRd8dl'
+    password:'your_password'
 });
 
 class SocketService{

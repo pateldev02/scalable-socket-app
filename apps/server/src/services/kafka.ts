@@ -11,7 +11,7 @@ const kafka = new Kafka({
     },
     sasl:{
         username: "avnadmin",
-        password: "AVNS_RdPD1ShNUgSgK8KxdAc",
+        password: "your_password",
         mechanism: "plain",
     }
 });
