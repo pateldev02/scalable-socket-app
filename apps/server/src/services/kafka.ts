@@ -11,7 +11,7 @@ const kafka = new Kafka({
     },
     sasl:{
         username: "avnadmin",
-        password: "your_password",
+        password: "AVNS_RdPD1ShNUgSgK8KxdAc",
         mechanism: "plain",
     }
 });
@@ -40,7 +40,6 @@ export async function produceMessage(message:string){
     });
     return true;
 }
-
 
 //consumer
 export async function startMessageConsumer(){
